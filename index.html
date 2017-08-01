@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>map interactif</title>
+	<link rel="stylesheet" type="text/css" href="leaflet/leaflet.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body id="mapClick">
+	<h1>Carte intéractif test</h1>
+		<div class="jumbotron">
+		   <div class="container">
+			<div class="row">
+				<div class="col-md-6">
+				   <ul class="nav nav-tabs">
+				<li class="nav-item" id="habitat">
+					Habitat
+					<input type="radio" name="case1" value="case1" id="case1" >
+				</li>
+				<li class="nav-item" id="amenagement">
+					Amenagement
+					<input type="radio" name="case2" value="case2" id="case2" >
+				</li>
+				<li class="nav-item" id="immobilier">
+					Immobilier Entreprise
+					<input type="radio" name="case3" value="case3" id="case3" >
+				</li>
+				<li class="nav-item" id="ingenierie" >
+				Ingenierie	
+				<input type="radio" name="case4" value="case4" id="case4" >
+				</li>
+
+				<div class="habitation" >
+					   <div id="marquage" class="trait"></div>
+						<h2>LE SODIAC AU <strong>SERVICE DE LA REUNION</strong></h2>
+							<h3>Le parc <strong>locatif</strong> de sodia constitue :</h3>
+								<h1 class="chiffre">2384</h1>
+									<h4>logement</h4>
+								<p id="cache">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse culpa natus mollitia, ea dolores neque blanditiis 
+								</p>
+									<p><button class="btn-success"><a href="http://sodiac.red-samurai.net/habitat">En savoir plus</a></p>
+					</div>		
+
+					<div  class="logement" >
+					   <div id="marquage" class="trait"></div>
+						<h2 >LE SODIAC AU <strong>SERVICE DE LA REUNION</strong></h2>
+							<h3>Le parc <strong>habita</strong> de sodia constitue :</h3>
+								<h1 class="chiffre">1830</h1>
+									<h4>logement</h4>
+								<p id="cache">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse culpa natus mollitia, ea dolores neque blanditiis</p>
+									<p><button class="btn-danger"><a href="http://sodiac.red-samurai.net/habitat">En savoir plus</a></p>
+					</div>		
+				<!--///////////test////////////-->
+
+					
+				</div><!--col-md-6-->
+				<div class="col-md-6">	
+					<div id="map">
+						
+					</div>
+					
+				</div>
+		  </div>	
+		</div><!--jumbotron-->
+
+<script type="text/javascript" src="leaflet/leaflet.js"></script>
+<script src="http://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="data.js"></script>
+</body>
+</html>

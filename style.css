@@ -1,0 +1,16 @@
+#map { height: 450px; width: 450px; }
+.habitation { text-align: center;}
+.habitation h1 { color: green; margin-bottom: 10px; }
+.habitation h2 { margin-bottom: 20px;}
+.habitation h4 { margin-bottom: 20px; color: green; }
+.trait { width: 80px; background: green; height: 4px; border-radius: 7px; margin : auto;
+	margin-top: 80px; }
+
+.logement {display: none; text-align: center;}
+button { width:  180px; border: none;border-radius: 8px; padding-top: 14px;
+ cursor: pointer;}
+.nav-item { margin-left: 30px; }
+.btn-danger a { color: white; text-decoration: none; }
+.btn-success a { color: white; text-decoration: none; }
+li p:hover { cursor: pointer; }
+.btn-primary a { color: white; text-decoration: none; }
